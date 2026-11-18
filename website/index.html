@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183e36">
+  <meta name="description" content="Three stories. A short pause. What do you remember? An interactive reading and memory lab.">
+  <title>Between the Lines · Reading & Memory Lab</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><a href="./" class="brand" aria-label="Between the Lines home"><span class="brand-mark">b<span>/</span>l</span><span>BETWEEN THE LINES<small>THE READING & MEMORY LAB</small></span></a><span class="edition">A COGNITIVE SCIENCE EXPERIMENT <span class="edition-dot"></span> VOL. 01</span><button id="exit" class="text-button" hidden>Leave session ↗</button></header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="footer"><span>Read closely. Remember freely.</span><span>PSYC 402 <span class="divider">/</span> MEMORY & COGNITION</span></footer>
+  <dialog id="exit-dialog"><form method="dialog"><p class="eyebrow">LEAVE THIS SESSION?</p><h2>Pause here, or start over.</h2><p>Your progress is kept in this tab until you finish or clear it. No incomplete session is uploaded.</p><div class="actions"><button value="cancel" class="button secondary">Keep going</button><button value="leave" class="button">Return to start</button></div></form></dialog>
+  <noscript>This experiment needs JavaScript enabled to display stories and record responses.</noscript>
+</body>
+</html>
